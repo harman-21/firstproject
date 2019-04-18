@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="NavT.listeners"/>
+		<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+  <test thread-count="5" name="App testing">
+    <classes>
+      <class name="NavT.AppTest"/>
+    </classes>
+  </test>
+    
+  <test name ="validating different users">
+    <classes>
+      <class name="NavT.HomePageTest"/>
+     </classes>
+  </test>
+  
+  <test name="validating the presence of navigation bar">
+     <classes>
+      <class name="NavT.validateNavigationBarTest"/>
+     </classes>
+  </test>
+  
+  <test name="validating the text of title ">
+     <classes>
+      <class name="NavT.validateTitleTest"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

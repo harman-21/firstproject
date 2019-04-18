@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="NavT.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="validating the text of title (failed)">
+    <classes>
+      <class name="NavT.validateTitleTest">
+        <methods>
+          <include name="Vtitle"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- NavT.validateTitleTest -->
+    </classes>
+  </test> <!-- validating the text of title (failed) -->
+</suite> <!-- Failed suite [Suite] -->

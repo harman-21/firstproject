@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70639" started-at="2019-04-18T15:28:58Z" finished-at="2019-04-18T15:30:09Z">
+    <groups>
+    </groups>
+    <test name="App testing" duration-ms="6" started-at="2019-04-18T15:28:58Z" finished-at="2019-04-18T15:28:58Z">
+    </test> <!-- App testing -->
+    <test name="validating different users" duration-ms="40467" started-at="2019-04-18T15:28:58Z" finished-at="2019-04-18T15:29:39Z">
+      <class name="NavT.HomePageTest">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:NavT.HomePageTest@5e600dd5]" name="basePageNavigation" duration-ms="19271" started-at="2019-04-18T15:28:58Z" data-provider="getData" finished-at="2019-04-18T15:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:NavT.HomePageTest@5e600dd5]" name="basePageNavigation" duration-ms="20643" started-at="2019-04-18T15:29:18Z" data-provider="getData" finished-at="2019-04-18T15:29:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ckfm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cecpr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:NavT.HomePageTest@5e600dd5]" name="teardown" is-config="true" duration-ms="518" started-at="2019-04-18T15:29:38Z" finished-at="2019-04-18T15:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- NavT.HomePageTest -->
+    </test> <!-- validating different users -->
+    <test name="validating the presence of navigation bar" duration-ms="18960" started-at="2019-04-18T15:29:39Z" finished-at="2019-04-18T15:29:58Z">
+      <class name="NavT.validateNavigationBarTest">
+        <test-method status="PASS" signature="NavBar()[pri:0, instance:NavT.validateNavigationBarTest@6221a451]" name="NavBar" duration-ms="16611" started-at="2019-04-18T15:29:39Z" finished-at="2019-04-18T15:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:NavT.validateNavigationBarTest@6221a451]" name="teardown" is-config="true" duration-ms="2348" started-at="2019-04-18T15:29:56Z" finished-at="2019-04-18T15:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- NavT.validateNavigationBarTest -->
+    </test> <!-- validating the presence of navigation bar -->
+    <test name="validating the text of title " duration-ms="10727" started-at="2019-04-18T15:29:58Z" finished-at="2019-04-18T15:30:09Z">
+      <class name="NavT.validateTitleTest">
+        <test-method status="PASS" signature="Vtitle()[pri:0, instance:NavT.validateTitleTest@537f60bf]" name="Vtitle" duration-ms="10379" started-at="2019-04-18T15:29:58Z" finished-at="2019-04-18T15:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vtitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:NavT.validateTitleTest@537f60bf]" name="teardown" is-config="true" duration-ms="346" started-at="2019-04-18T15:30:08Z" finished-at="2019-04-18T15:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- NavT.validateTitleTest -->
+    </test> <!-- validating the text of title  -->
+  </suite> <!-- Suite -->
+</testng-results>

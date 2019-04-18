@@ -1,0 +1,7 @@
+11:23:48.459 [main] INFO  NavT.validateNavigationBarTest - validating title
+11:29:17.576 [main] INFO  NavT.validateNavigationBarTest - username is entered
+11:29:38.316 [main] INFO  NavT.validateNavigationBarTest - username is entered
+11:29:52.049 [main] INFO  NavT.validateNavigationBarTest - Selected browser is getting invoked
+11:29:52.049 [main] INFO  NavT.validateNavigationBarTest - website is opening
+11:29:56.039 [main] INFO  NavT.validateNavigationBarTest - subscribe pop up is closed
+11:29:56.114 [main] INFO  NavT.validateNavigationBarTest - validating if the navigation bar is displayed  on the page or not
