@@ -35,6 +35,11 @@ public class HomePageTest extends Base{
 		System.out.println("hello world");
 		System.out.println("hello world");
 	}
+	@Test
+	public void gitprint()
+	{
+		System.out.println("hhelkeddhuhe");
+	}
 	@AfterTest
 	public void teardown()
 	{
